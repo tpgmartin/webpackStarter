@@ -1,0 +1,33 @@
+{
+  "name": "webpackStarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tpgmartin/webpackStarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpgmartin/webpackStarter/issues"
+  },
+  "homepage": "https://github.com/tpgmartin/webpackStarter",
+  "dependencies": {
+    "express": "^4.13.3",
+    "http-proxy": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.29",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.21.0",
+    "json-loader": "^0.5.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
